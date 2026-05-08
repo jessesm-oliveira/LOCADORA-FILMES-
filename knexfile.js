@@ -11,7 +11,12 @@ module.exports = {
       filename: './src/database/database.sqlite'
 
     },
-    useNullAsDefault : true
+    useNullAsDefault : true,
+    migrations: {
+       
+      directory: './src/database/migrations'
+
+    }
   },
 
   staging: {
@@ -47,3 +52,4 @@ module.exports = {
   }
 
 };
+
