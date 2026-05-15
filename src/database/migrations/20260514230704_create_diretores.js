@@ -1,12 +1,11 @@
-const { TableBuilder } = require("knex");
-
 /**
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-
-    return knex.schema.createTable("generos", (table) => { // criando uma tabela chamada generos para filmes
+    
+    
+    return knex.schema.createTable("diretores", (table) => {
     
     table.increments("id").primary()
     table.string("nome").notNullable()
@@ -22,8 +21,9 @@ exports.up = function(knex) {
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
-exports.down = function(knex) {
-
-    return knex.schema.dropTable("generos")
+exports.down = function(knex) {   
+    
+    return knex.schema.dropTable("diretores")
+  
   
 };
