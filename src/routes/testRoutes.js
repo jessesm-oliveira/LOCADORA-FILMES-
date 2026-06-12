@@ -1,13 +1,9 @@
-const express = require ("express")
-
+const express = require("express")
 const router = express.Router()
 
-const testcontroller = require ("../controllers/testController")
+const testController = require("../controllers/testController")
 
-router.get("/", testcontroller.testconnection)
-
-
-router.get("/tables", testcontroller.listTables)
-
+router.get("/", testController.testConnection)
+router.get("/tables", testController.listTable)
 
 module.exports = router

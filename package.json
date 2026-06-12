@@ -1,26 +1,25 @@
 {
-  "name": "locadora-filmes-",
+  "name": "locadora-filmes",
   "version": "1.0.0",
-  "description": "CRIANDO UM PROJETO DE LOCADORA DE FILMES",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jessesm-oliveira/LOCADORA-FILMES-.git"
+    "url": "git+https://github.com/BoboCarmesim/locadora-filmes.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jessesm-oliveira/LOCADORA-FILMES-/issues"
+    "url": "https://github.com/BoboCarmesim/locadora-filmes/issues"
   },
-  "homepage": "https://github.com/jessesm-oliveira/LOCADORA-FILMES-#readme",
+  "homepage": "https://github.com/BoboCarmesim/locadora-filmes#readme",
   "dependencies": {
     "express": "5.2.1",
-    "i": "^0.3.7",
     "knex": "3.2.9",
     "sqlite3": "6.0.1"
   },
